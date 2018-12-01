@@ -1,5 +1,5 @@
 SQL_UP = """
-CREATE TABLE `demo_table_work113` (
+CREATE TABLE `demo_table_work2113` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(100) NOT NULL,
   `author` varchar(40) NOT NULL,
