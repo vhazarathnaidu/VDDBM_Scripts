@@ -1,14 +1,13 @@
 SQL_UP = """
-CREATE TABLE users (
-  id int NOT NULL identity,
-  oid varchar(500) default NULL,
-  first_name varchar(255) default NULL,
-  last_name varchar(255) default NULL,
-  email varchar(255) default NULL,
-  PRIMARY KEY  (id)
+CREATE TABLE `sample_table` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(100) NOT NULL,
+  `author` varchar(40) NOT NULL,
+  `submission_date` date DEFAULT NULL,
+  PRIMARY KEY (`id`)
 );
 """
 
 SQL_DOWN = """
-DROP TABLE users;
+DROP TABLE sample_table;
 """
