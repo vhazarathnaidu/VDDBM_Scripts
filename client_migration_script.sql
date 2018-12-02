@@ -1,5 +1,5 @@
 SQL_UP = """
-CREATE TABLE `demo_table_work_1` (
+CREATE TABLE `demo_table_work_2` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(100) NOT NULL,
   `author` varchar(40) NOT NULL,
@@ -9,5 +9,5 @@ CREATE TABLE `demo_table_work_1` (
 """
 
 SQL_DOWN = """
-DROP TABLE demo_table_work_1;
+DROP TABLE demo_table_work_2;
 """
