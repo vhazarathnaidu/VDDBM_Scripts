@@ -9,5 +9,5 @@ CREATE TABLE `demo_table_workwork` (
 """
 
 SQL_DOWN = """
-DROP TABLE demo_table;
+DROP TABLE demo_table_workwork;
 """
